@@ -154,7 +154,7 @@ export default function App() {
           {/* Changed w-[200%] to w-max so it expands naturally */}
           <div className="flex whitespace-nowrap animate-marquee w-max">
             {/* Increased array size to 8 so it never runs out of text on ultrawide monitors */}
-            {Array(8).fill("/// BUILT FOR PORTFOLIO /// RAW DATA PROVIDED BY WEATHERAPI.COM ").map((text, index) => (
+            {Array(8).fill("/// BUILT BY KLINE /// RAW DATA PROVIDED BY WEATHERAPI.COM ").map((text, index) => (
               // Added shrink-0 here to prevent the mobile squish
               <div key={index} className="flex items-center shrink-0 px-4">
                 <span className="font-black text-xl md:text-2xl tracking-widest uppercase">
