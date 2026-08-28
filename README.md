@@ -4,7 +4,7 @@
 
 RAW WEATHER is a brutalist, high-contrast web application designed to deliver real-time meteorological data and active severe weather alerts. Stripped of soft UI elements and gradients, this project focuses on raw function, utilizing aggressive typography, heavy grid structures, and seamless API integrations.
 
-![RAW WEATHER Interface](image_459fc1.png)
+![RAW WEATHER Interface](C:\Users\klineee\Desktop\weather app\Screenshots\image_459fc1.png)
 
 ## Core Features
 * **Real-Time Telemetry:** Fetches up-to-the-minute global weather data including temperature, humidity, and wind speed.
@@ -25,3 +25,19 @@ RAW WEATHER is a brutalist, high-contrast web application designed to deliver re
    ```bash
    git clone [https://github.com/pndesal1295/weather-alerts.git](https://github.com/pndesal1295/weather-alerts.git)
    cd weather-alerts
+
+2. **Install dependencies:**
+    ```bash
+    npm install
+
+3. **Configure Environment Variables:**
+Create a .env file in the root directory and add your WeatherAPI key:
+    ```Code snippet
+    VITE_WEATHER_API_KEY=your_api_key_here
+
+4. **Start the development server:**
+    ```bash
+    npm run dev
+
+## Author
+Kline Olasiman
