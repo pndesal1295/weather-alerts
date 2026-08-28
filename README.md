@@ -1,16 +1,61 @@
-# React + Vite
+```markdown
+# RAW WEATHER /// Global Weather Monitor
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+[**View Live Deployment**](INSERT_YOUR_VERCEL_OR_NETLIFY_LINK_HERE)
 
-Currently, two official plugins are available:
+RAW WEATHER is a brutalist, high-contrast web application designed to deliver real-time meteorological data and active severe weather alerts. Stripped of soft UI elements and gradients, this project focuses on raw function, utilizing aggressive typography, heavy grid structures, and seamless API integrations.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+![RAW WEATHER Interface](image_459fc1.png)
 
-## React Compiler
+## Core Features
+* **Real-Time Telemetry:** Fetches up-to-the-minute global weather data including temperature, humidity, and wind speed.
+* **Automated Geolocation:** Immediately locates the user via browser API to provide localized data upon load.
+* **Precision Search:** Features a debounced autocomplete search utilizing WeatherAPI's search endpoint to prevent unnecessary API calls.
+* **Active Threat Ticker:** Parses severe weather warnings and displays them via a continuous, high-visibility scrolling marquee.
+* **Responsive Brutalism:** Fully responsive architecture that scales dynamic typography mathematically from desktop monitors down to mobile screens without breaking the grid.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Tech Stack
+* **Framework:** React + Vite
+* **Styling:** Tailwind CSS
+* **Icons:** Lucide React
+* **Data Provider:** [WeatherAPI](https://www.weatherapi.com/)
 
-## Expanding the ESLint configuration
+## Local Development
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+1. **Clone the repository:**
+   ```bash
+   git clone [https://github.com/pndesal1295/weather-alerts.git](https://github.com/pndesal1295/weather-alerts.git)
+   cd weather-alerts
+
+```
+
+2. **Install dependencies:**
+```bash
+npm install
+
+```
+
+
+3. **Configure Environment Variables:**
+Create a `.env` file in the root directory and add your WeatherAPI key:
+```env
+VITE_WEATHER_API_KEY=your_api_key_here
+
+```
+
+
+4. **Start the development server:**
+```bash
+npm run dev
+
+```
+
+
+
+## Author
+
+**Kline Otto Om Aucente Olasiman**
+
+```
+
+```
